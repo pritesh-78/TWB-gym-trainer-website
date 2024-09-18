@@ -1,0 +1,14 @@
+2024-09-18T05:36:15+00:00 CRITICAL Uncaught Error: Class "WPForms\Vendor\TijsVerkoyen\CssToInlineStyles\CssToInlineStyles" not found in C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Styler.php:113
+Stack trace:
+#0 C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Styler.php(131): WPForms\Emails\Styler->process_markup()
+#1 C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Templates\General.php(417): WPForms\Emails\Styler->get()
+#2 C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Templates\General.php(447): WPForms\Emails\Templates\General->save_styled('\n<!DOCTYPE html...')
+#3 C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Templates\General.php(461): WPForms\Emails\Templates\General->build(false)
+#4 C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Summaries.php(227): WPForms\Emails\Templates\General->get()
+#5 C:\xampp\htdocs\twb\wp-includes\class-wp-hook.php(308): WPForms\Emails\Summaries->cron()
+#6 C:\xampp\htdocs\twb\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\twb\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\twb\wp-cron.php(188): do_action_ref_array('wpforms_email_s...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\twb\wp-content\plugins\wpforms-lite\src\Emails\Styler.php on line 113
+
